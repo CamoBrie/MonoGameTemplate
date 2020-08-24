@@ -134,15 +134,15 @@ Change the TargetFrameWork in Tests.csproj to netcoreapp3.1 and add the cleaning
     Windows:
      dotnet clean
      dotnet build
-     dotnet publish -r win-x64 -c release
+     dotnet publish -r win-x64 -c release -o ./Build
 
     Mac:
      dotnet clean
      dotnet build
-     dotnet publish -r osx-x64 -c release
+     dotnet publish -r osx-x64 -c release -o ./Build
 
     Linux:
      dotnet clean
      dotnet build
-     dotnet publish -r linux-x64 -c release
+     dotnet publish -r linux-x64 -c release -o ./Build
      
