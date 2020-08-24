@@ -1,5 +1,7 @@
 # MonoGameTemplate
 
+https://www.reddit.com/r/monogame/comments/cst49i/the_ultimate_guide_to_getting_started_with/
+
 ## prerequisites
 
 #### Prerequisites Part 1:
