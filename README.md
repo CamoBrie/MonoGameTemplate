@@ -82,7 +82,7 @@ Install MonoGame project templates.
     cd ..
     dotnet sln add ./<MyProject>.Tests/<MyProject>.Tests.csproj
     
-Change the TargetFrameWork in Tests.csproj to netcoreapp3.1
+Change the TargetFrameWork in Tests.csproj to netcoreapp3.1 and add the cleaning function to it.
 
 ### 5. in \<MyProject>.Tests/\<Package>/\<MyClassTests>.cs 
     using NUnit.Framework;
