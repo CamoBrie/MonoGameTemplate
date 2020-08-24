@@ -81,6 +81,8 @@ Install MonoGame project templates.
     dotnet add reference ../<MyProject>/<MyProject>.csproj
     cd ..
     dotnet sln add ./<MyProject>.Tests/<MyProject>.Tests.csproj
+    
+Change the TargetFrameWork in Tests.csproj to netcoreapp3.1
 
 ### 5. in \<MyProject>.Tests/\<Package>/\<MyClassTests>.cs 
     using NUnit.Framework;
